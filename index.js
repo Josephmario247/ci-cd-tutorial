@@ -1,5 +1,8 @@
-const app = require("./app");
+// import app from "./app"
+// import dotenv from "dotenv"
+const app = require("./app.js");
 const config = require("dotenv").config;
+
 
 config();
 

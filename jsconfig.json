@@ -4,8 +4,15 @@
     "module": "commonjs", // Jest uses CommonJS
     "baseUrl": ".", // Base URL for resolving modules
     "paths": {
-      "jest": ["node_modules/jest"]
+      "jest": [
+        "node_modules/jest"
+      ]
     }
   },
-  "include": ["**/*.js"]
+  "include": [
+    "**/*.js",
+    "__tests__/index.test.js",
+    "index.js",
+    "app.js"
+  ]
 }
